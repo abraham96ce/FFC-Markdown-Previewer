@@ -1,0 +1,41 @@
+.h1, h5 {
+  margin-bottom: 20px; /* Espacio inferior para el título */
+  color: #343a40;
+}
+
+.container {
+  max-width: 900px; /* Ancho máximo del contenedor */
+}
+
+.row {
+  display: flex; /* Flex para alinear los elementos */
+}
+
+.col-md-6 {
+  display: flex; /* Flex para asegurar que los elementos se alineen en el centro */
+  flex-direction: column; /* Alinear verticalmente los elementos */
+}
+
+textarea {
+  width: 100%; /* Hace que el textarea ocupe el 100% del ancho */
+  flex: 1; /* Permite que el textarea se expanda para llenar el espacio disponible */
+  resize: none; /* Deshabilita el redimensionamiento */
+  border: 1px solid #ced4da; /* Borde gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px; /* Padding interno */
+  font-size: 16px; /* Tamaño de fuente */
+}
+
+#preview {
+  flex: 1; /* Permite que el preview se expanda para llenar el espacio disponible */
+  background-color: #ffffff; /* Fondo blanco para la vista previa */
+  overflow-y: auto; /* Scroll en caso de contenido largo */
+  border: 1px solid #ced4da; /* Borde gris claro */
+  border-radius: 0.25rem; /* Bordes redondeados */
+  padding: 15px; /* Padding interno */
+  font-size: 16px; /* Tamaño de fuente */
+}
+
+img {
+  max-width: 100%; /* Hacer que las imágenes se ajusten al contenedor */
+}
